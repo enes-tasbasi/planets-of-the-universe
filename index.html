@@ -1,5 +1,16 @@
 ---
 layout: default
 ---
-    <h1>Hello, World!</h1>
-    <p>Lots of planets!</p>
+    <h2>Home</h2>
+    <p>A planet is an object orbiting a star.</p>
+
+    <h3>Recently Discovered Planets</h3>
+
+    <ul>
+      {% for news in site.categories.recently-discovered limit:2 %}
+      <li>
+        <a href="">{{news.title}}</a>
+        <p>{{news.meta}}</p>
+      </li>
+      {% endfor %}
+    </ul>
