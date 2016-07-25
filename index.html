@@ -2,15 +2,26 @@
 layout: default
 ---
     <h2>Home</h2>
-    <p>A planet is an object orbiting a star.</p>
+<p>A planet is an object orbiting a star.</p>
 
-    <h3>Recently Discovered Planets</h3>
+<h2>Types of Planets</h2>
 
-    <ul>
-      {% for news in site.categories.recently-discovered limit:2 %}
-      <li>
+<ol>
+  {% for planet in site.data.planet-types %}
+    <li>
+        <a href="">{{planet.title}}</a>
+        {{planet.content | markdownify }}
+    </li>
+    {% endfor %}
+</ol>
+
+<h3>Recently Discovered Planets</h3>
+
+<ul>
+    {% for news in site.categories.recently-discovered limit:2 %}
+    <li>
         <a href="">{{news.title}}</a>
         <p>{{news.meta}}</p>
-      </li>
-      {% endfor %}
-    </ul>
+    </li>
+    {% endfor %}
+</ul>

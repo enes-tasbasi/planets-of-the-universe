@@ -1,0 +1,12 @@
+
+  - title: Gas Giant
+    folder: gas-giant
+    content: 'A gas-giant planet.'
+
+  - title: Terrestrial
+    folder: terrestrial
+    content: 'A terrestrial planet.'
+
+  - title: Dwarf
+    folder: Dwarf
+    content: 'A dwarf planet.'
