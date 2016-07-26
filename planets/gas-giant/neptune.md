@@ -1,4 +1,5 @@
 ---
+layout: planet
 title: Neptune
 meta: Neptune is the eighth and farthest planet from the Sun in the Solar System.
 type: gas-giant

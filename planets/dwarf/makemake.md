@@ -1,4 +1,5 @@
 ---
+layout: planet
 title: Makemake
 meta: Makemake is a dwarf planet and perhaps the largest Kuiper belt object.
 type: dwarf

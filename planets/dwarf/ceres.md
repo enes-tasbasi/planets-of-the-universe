@@ -1,4 +1,5 @@
 ---
+layout: planet
 title: Ceres
 meta: Ceres is the largest asteroid and the only dwarf planet in the inner Solar System.
 type: dwarf
