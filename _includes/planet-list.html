@@ -5,7 +5,7 @@
     {% if planet.type == {{include.type}} %}
     <li>
       <a href="{{site.baseurl}}{{planet.url}}">
-        <img alt="Photo of {{planet.title}}" src="{{site.baseurl}}/img/planets/{{planet.image}}">
+        <img class="img-responsive" alt="Photo of {{planet.title}}" src="{{site.baseurl}}/img/planets/{{planet.image}}">
         <h3>{{planet.title}}</h3>
         <p>{{planet.meta}}</p>
       </a>
