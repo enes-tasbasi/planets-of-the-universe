@@ -2,13 +2,19 @@
 layout: default
 ---
 
-<strong>News</strong>
+<!-- <strong>News</strong> -->
 
 <nav>
-    <ul>
-        <li><a href="{{site.baseurl}}/news.html">News</a></li>
+    <ul class="nav nav-pills">
+        <li><a href="{{site.baseurl}}/news/">News</a></li>
         <li><a href="{{site.baseurl}}/recently-discovered/">Recently Discovered Planets</a></li>
     </ul>
 </nav>
 
+<div class="panel panel-default">
+  <div class="panel-body">
+
 {{content}}
+
+  </div>
+</div>

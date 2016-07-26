@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<strong>Planets</strong>
+<!-- <strong>Planets</strong> -->
 <nav>
-    <ul>
+    <ul class="nav nav-pills">
         {% for planet in site.data.planet-types %}
         <li>
             <a href="{{site.baseurl}}/planets/{{planet.folder}}/" class="{% if page.url contains planet.folder %}current{% endif %}">{{planet.title}}</a>
@@ -14,4 +14,10 @@ layout: default
     </ul>
 </nav>
 
+<div class="panel panel-default">
+  <div class="panel-body">
+
 {{content}}
+
+  </div>
+</div>
